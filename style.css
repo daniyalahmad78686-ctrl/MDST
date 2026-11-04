@@ -1,0 +1,171 @@
+.nav{
+    background-color: #eeece6;
+    height: 39px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    text-align: center;
+    margin-top: 65px;
+}
+
+.name h2{
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.name pre{
+    color: #a6aab2;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar a{
+    color: #a6b2cd;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+/* img-sec */
+.img-sec{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img1 {
+    margin-top: 40px;
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pic-content {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    transform: translateY(1px);
+    color: white;
+}
+
+.pic-intro {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.pic-text {
+    font-size: 50px;
+    font-weight: bold;
+    font-weight: 300;
+}
+
+.img2 img{
+    margin-top: 40px;
+    position: relative;
+    width: 600px;
+    height: 440px;
+}
+
+.collection {
+    height: 96px;
+    background-color: #eae7df;
+    padding: 25px 28px;
+    margin-top: 10px;
+}
+
+.collection p {
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #77736c;
+    margin: 0 0 8px;
+}
+
+.collection h2 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.25;
+    margin: 0;
+    color: #252525;
+}
+
+.end-sec{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.end-sec p{ 
+    color: #a7a6b0;
+}
+
+.end-sec h1{
+    color: #2a2a24;
+    font-weight: 300;   
+    font-size: 50px;
+}
+
+.mail-sec{
+    margin-top: 40px;
+}
+
+.search-bar{
+    height: 32px;
+    width: 270px;
+}
+
+.btn{
+    height: 38px;
+    width: 180px;
+    background-color: #292923;
+    color: white;
+    border: #262620;
+}
+
+.icon-sec{
+    margin-top: 50px;
+    font-size: 20px;
+    color: #252525;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #e7e3db;
+    margin-top: 60px;
+}
+
+.last-sec{
+    color: #a6aab2;
+    margin-top: 40px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.mail{
+    margin-left: 640px;
+}
+
+.privacy-sec{
+    margin-left: 19px;
+}
